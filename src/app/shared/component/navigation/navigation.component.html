@@ -1,0 +1,10 @@
+<nav class="navigation">
+  <ul class="items">
+    <li class="item" *ngFor="let item of visibleData">
+      <a class="link" routerLink="{{item.link}}">{{item.title}}</a>
+    </li>
+  </ul>
+  <button type="button" class="btn btn-primary register">
+    <a class="link" routerLink="/signup">Register</a>
+  </button>
+</nav>
