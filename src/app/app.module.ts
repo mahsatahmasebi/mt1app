@@ -9,6 +9,7 @@ import {FormsModule} from '@angular/forms';
 import { LayoutPublicComponent } from './layout/layout-public/layout-public.component';
 import { LayoutBaseComponent } from './layout/layout-base/layout-base.component';
 import { NavigationComponent } from './shared/component/navigation/navigation.component';
+import { AlertComponent } from './shared/component/alert/alert.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NavigationComponent } from './shared/component/navigation/navigation.co
     SigninComponent,
     LayoutPublicComponent,
     LayoutBaseComponent,
-    NavigationComponent
+    NavigationComponent,
+    AlertComponent
   ],
   imports: [
     BrowserModule,
